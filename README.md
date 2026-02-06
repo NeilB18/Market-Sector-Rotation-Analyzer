@@ -1,0 +1,5 @@
+Sector Rotation Analyzer
+
+This project is an end-to-end machine learning and full-stack system that analyzes financial markets to detect sector leadership and capital rotation. Using sector and market price data, the system engineers features such as short-term returns, relative strength, and volatility, then applies K-Means clustering to group sectors into behavioral categories like outperforming, neutral, and underperforming. These clusters provide a structured view of market conditions and highlight which parts of the market are leading or lagging at any given time.
+
+Beyond clustering, the platform models how capital shifts between sectors by tracking changes in rolling relative strength rankings over time. A FastAPI backend performs the quantitative computations, while a React + TypeScript frontend uses Plotly to render interactive 3D cluster visualizations and sector rotation flows. The result is an intelligent analytics dashboard that combines machine learning, time-series modeling, and data visualization — similar to tools used in quantitative research and trading environments.
